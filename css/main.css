@@ -61,6 +61,9 @@ a:visited { color: #a0a; }
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    padding: 2em;
 }
 
 .header a {
