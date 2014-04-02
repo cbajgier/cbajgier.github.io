@@ -2,7 +2,7 @@
 layout: post
 title:  "My Goals"
 date:   2014-03-29 23:30:09
-categories: development, about, info
+categories: development about info
 ---
 
 ##So here's what I'm trying to do, in general:

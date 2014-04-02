@@ -2,7 +2,7 @@
 layout: post
 title:  "The Bookshelf"
 date:   2014-03-29 23:30:09
-categories: development, storytelling
+categories: development storytelling
 ---
 
 The bookshelf in my living room is roughly arranged like this:
