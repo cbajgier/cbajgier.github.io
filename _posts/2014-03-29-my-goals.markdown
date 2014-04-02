@@ -10,6 +10,7 @@ categories: development, about, info
 * Learn enough about web development to make sense of the stack, the frameworks available, which technology would best suit a project, etc. 
 * Understand the new workflow of web development -- coding, testing, source control with git, etc. that's so drastically different that what I was used to back when I was a nerdy teenager
 * Learn a new programming language, since it's been forever since I've done that. Well, actually I might learn a couple: JavaScript and something else (right now, I'm thinking Ruby)
+* Be able to whip together a prototype of a new feature or enhancement for testing and feedback in my day job
 * Have enough programming know-how to attend a local language user group (like [pghrb](http://www.meetup.com/pittsburgh-ruby/)) and follow the discussion
 * Be able to hold my own in case asked me to solve a coding question on a whiteboard
 
