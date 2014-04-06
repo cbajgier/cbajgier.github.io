@@ -4,18 +4,21 @@ title: Adventures in Computing
 ---
 
 <div id="middlecontent">
-    <p>My name is Chris, and I'm trying to learn modern web development.</p>
-
-<p>I define how websites should look and act in my day job, but it's been quite a while since I've done any programming myself. Plus, when I did I usually built traditional applications, like the ones that run on Windows.</p>
- 
-<p>I used Visual Basic, C, and Borland Delphi to build those programs. Man, did I love Delphi.</p>
-
-<p>That was fun, but no one does that anymore.</p>
     
-  <h1>Musings</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+  	<h2 class="date-header">{{ post.date | date_to_string }}</h2>
+    <div class="post"><a name="{{ post.url }}"></a>
+         <div class="post-header">
+    				<h3 class="post-title"><a href="{{ post.url }}" title="permanent link">{{ post.title }}</a></h3>
+		   
+    
+      		<div class="post-meta">{{ post.date | date_to_string }}</div>
+      	</div>
+      		   
+        <div class="post-body">
+      		{{ post.content }}
+        </div>
+    
+  {% endfor %}
+
 </div>

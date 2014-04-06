@@ -29,14 +29,19 @@ comments: true
     				<h3 class="post-title"><a href="{{ page.url }}" title="permanent link">{{ page.title }}</a></h3>
 		   
     
-      		<div class="post-meta">{{ page.date | date_to_string }}</div>
+      		<div class="post-meta">
+            
+                {% for category in post.categories %}
+  {{ category | first }} 
+{% endfor %}
+            </div>
       	</div>
       		   
 	   	<div class="post-body">
       		{{ content }}
     		</div>
 
-			<p class="post-footer">
+			<div class="post-footer">
 {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -51,4 +56,5 @@ comments: true
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
 {% endif %}
