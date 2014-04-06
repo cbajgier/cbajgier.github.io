@@ -2,6 +2,11 @@
 layout: default
 comments: true
 ---
+
+<div id="middlecontent">
+  			<h2 class="date-header">{{ page.date | date_to_string }}</h2>
+    
+  		<!-- Begin .post -->
 {% if page.comments %}
 <script type="text/javascript">
 
@@ -17,13 +22,21 @@ comments: true
     })();
 </script>
 {% endif %}
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-</div>
 
+  		<div class="post"><a name="{{ page.url }}"></a>
+         <div class="post-header">
+    				<h3 class="post-title"><a href="{{ page.url }}" title="permanent link">{{ page.title }}</a></h3>
+		   
+    
+      		<div class="post-meta">{{ page.date | date_to_string }}</div>
+      	</div>
+      		   
+	   	<div class="post-body">
+      		{{ content }}
+    		</div>
+
+			<p class="post-footer">
 {% if page.comments %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">

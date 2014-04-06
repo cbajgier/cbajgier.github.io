@@ -1,6 +1,38 @@
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="{{ site.url }}/index.html">home</a>
-              <a class="extra" href="{{ site.url }}/kudos.html">kudos</a>
-          </div>
+
+<div id="rightcontent">
+
+<h2 class="sidebar-title">Description</h2>
+
+<!-- <p class="profile-textblock"><$BlogDescription$></p> -->
+
+			<script src="//about.me/embed/christopher.bajgier?style=site"></script>
+
+
+	<h2 class="sidebar-title">Links</h2>
+	<ul>
+    	<li><a href="http://chris.bajgier.net">My Homepage</a></li>
+    	<li><a href="https://github.com/cbajgier">My GitHub Profile</a></li>
+	</ul>
+  
+<h2 class="sidebar-title">Posts</h2>
+
+<ul id="recently">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+<!-- 
+	<h2 class="sidebar-title">Connect</h2>
+	<ul class="archive-list">
+		
+	    	<li><a href="http://www.twitter.com/cbajgier">@cbajgier</a></li>
+  </ul>
+-->
+
+</div> <!-- Closing div for rightcontent -->
+
+<div id="footer">
+	Powered by <a href="http://jekyllrb.com/"><strong>Jekyll</strong></a><br />
+	Theme by <a href="http://chris.bajgier.net"><strong>Christopher Bajgier</strong></a>
+</div>
+    

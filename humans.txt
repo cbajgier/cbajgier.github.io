@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris Bajgier -- Theme Author -- @cbajgier
+
+# THANKS
+
+    HTML5 Boilerplate Theme
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Jekyll, Markdown, Liquid
