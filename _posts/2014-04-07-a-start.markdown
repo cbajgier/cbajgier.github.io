@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "A Start"
+date:   2014-04-07 23:30:09
+categories: development progress
+---
+
+After a bit of afternoon hacking around, I was able to port over an old theme to [Jekyll](http://jekyllrb.com) and install it on this site. This code came from the less sophisticated [Blogger](http://blogger.com) cousin to the [Wordpress](http://www.wordpress.org) theme I'm trying to port to [Ghost](http://ghost.org), so it's got quite the family history.  
+
+It's a good exercise to help me get familar with the theme structure and fill in any of the development/theming gaps I want to before attempting them on the [Abstract-Ghost](https://github.com/cbajgier/abstract-ghost) project.
+
+I roughly sketched out what the mobile breakpoint of this theme would look like, so a responsive view is on the short list. Here's a few other things I'd like to add:
+
+* Open Graph/Google Structured Data markup
+* "Send to Kindle" button support
+* RSS support (I still appreciate sites that support this)
+* Golden ratio/typographic golden ratio, 960 grid
+* Web fonts/font icons
+* Cover image
+* All the Facebook/Twitter/G+ sharing button support
+* Category/tag navigation
+* Better site meta-data configuration in Jekyll
+* Article excerpt support
+* Post formatting fixes, including images and tables
