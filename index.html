@@ -12,7 +12,8 @@ title: Adventures in Computing
     				<h3 class="post-title"><a href="{{ post.url }}" title="permanent link">{{ post.title }}</a></h3>
 		   
     
-      		<div class="post-meta">{% for category in post.categories %}
+      		<div class="post-meta">{{ post.categories | array_to_sentence_string }}
+                {% for category in post.categories %}
   {{ category | first }} 
 {% endfor %}
              </div>
