@@ -14,8 +14,26 @@
 	<!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
         <script src="{{ site.url }}/js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="{{ site.url }}/js/jquery-2.1.1.js"></script>
+        
+        <script type="text/javascript" src="{{ site.url }}/js/restive.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('selector').restive(options);
+            });
+        </script>
+        
+    
     </head>
     <body>
+        <script type="text/javascript">
+            $('body').restive({
+            breakpoints: ['10000'],
+            classes: ['nb'],
+            turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet,is_landscape=landscape'
+            });
+        </script>
+        
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
