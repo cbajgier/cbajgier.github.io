@@ -19,6 +19,13 @@
     	<li><a href="http://chris.bajgier.net">My Homepage</a></li>
     	<li><a href="https://github.com/cbajgier">My GitHub Profile</a></li>
 	</ul>
+    
+    <h2 class="sidebar-title">Pages</h2>
+    <ul>
+        {% for page in site.pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
   
 <h2 class="sidebar-title">Posts</h2>
 
