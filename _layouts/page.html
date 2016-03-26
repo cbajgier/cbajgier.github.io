@@ -2,5 +2,14 @@
 layout: default
 comments: false
 ---
-
-    {{ content }}
+<div id="middlecontent">
+<div class="page">
+    
+        <div class="post-header">
+            <h3 class="post-title"><a href="{{ page.url }}" title="permanent link">{{ page.title }}</a></h3>
+        </div>
+    <div class="page-content">
+        {{ content }}
+    </div>
+</div>
+</div>
