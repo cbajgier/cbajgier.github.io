@@ -1,35 +1,35 @@
 <!doctype html>
 <html class="no-js">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ site.name }} - {{ page.title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-    <link rel="stylesheet" href="{{ site.url }}/css/normalize.css">
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
-    <script src="{{ site.url }}/js/vendor/modernizr-2.7.1.min.js"></script>
-    <script src="{{ site.url }}/js/jquery-2.1.1.js"></script>
-
-    <script type="text/javascript" src="{{ site.url }}/js/restive.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('selector').restive(options);
-        });
-    </script>
-
-
-</head>
-
-<body>
-    <script type="text/javascript">
-        $('body').restive({
+        <link rel="stylesheet" href="{{ site.url }}/css/normalize.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+	<!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+        <script src="{{ site.url }}/js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="{{ site.url }}/js/jquery-2.1.1.js"></script>
+        
+        <script type="text/javascript" src="{{ site.url }}/js/restive.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('selector').restive(options);
+            });
+        </script>
+        
+    
+    </head>
+    <body>
+        <script type="text/javascript">
+            $('body').restive({
+>>>>>>> d9f74426d2933de9a9f889dd2ffa175a0241c749
             breakpoints: ['10000'],
             classes: ['nb'],
             turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet,is_landscape=landscape'
