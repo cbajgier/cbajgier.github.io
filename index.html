@@ -2,24 +2,24 @@
 layout: default
 title: Adventures in Computing
 ---
-
 <div id="middlecontent">
-    
-  {% for post in site.posts %}
-  	<h2 class="date-header">{{ post.date | date_to_string }}</h2>
-    <div class="post"><a name="{{ post.url }}"></a>
-         <div class="post-header">
-    				<h3 class="post-title"><a href="{{ post.url }}" title="permanent link">{{ post.title }}</a></h3>
-		   
-    
-      		<div class="post-meta">{{ post.categories | array_to_sentence_string }}
-             </div>
-      	</div>
-      		   
-        <div class="post-body">
-      		{{ post.content }}
-        </div>
-    
-  {% endfor %}
 
-</div>
+    {% for post in site.posts %}
+    <h2 class="date-header">{{ post.date | date_to_string }}</h2>
+    <div class="post">
+        <a name="{{ post.url }}"></a>
+        <div class="post-header">
+            <h3 class="post-title"><a href="{{ post.url }}" title="permanent link">{{ post.title }}</a></h3>
+
+
+            <div class="post-meta">{{ post.categories | array_to_sentence_string }}
+            </div>
+        </div>
+
+        <div class="post-body">
+            {{ post.content }}
+        </div>
+
+        {% endfor %}
+
+    </div>

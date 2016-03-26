@@ -1,33 +1,35 @@
-
 <div id="rightcontent">
 
-<h2 class="sidebar-title">Description</h2>
+    <h2 class="sidebar-title">Description</h2>
 
-<!-- <p class="profile-textblock"><$BlogDescription$></p> -->
+    <!-- <p class="profile-textblock"><$BlogDescription$></p> -->
 
-			<!-- <script src="//about.me/embed/christopher.bajgier?style=site"></script> -->
+    <!-- <script src="//about.me/embed/christopher.bajgier?style=site"></script> -->
     <p>My name is Chris, and I'm trying to learn modern web development.</p>
 
-<p>I define how websites should look and act in my day job, but it's been quite a while since I've done any programming myself. Plus, when I did I usually built traditional applications, like the ones that run on Windows.</p>
- 
-<p>I used Visual Basic, C, and Borland Delphi to build those programs. Man, did I love Delphi.</p>
+    <p>I define how websites should look and act in my day job, but it's been quite a while since I've done any programming myself. Plus, when I did I usually built traditional applications, like the ones that run on Windows.</p>
 
-<p>That was fun, but no one does that anymore.</p>
+    <p>I used Visual Basic, C, and Borland Delphi to build those programs. Man, did I love Delphi.</p>
 
-	<h2 class="sidebar-title">Links</h2>
-	<ul>
-    	<li><a href="http://chris.bajgier.net">My Homepage</a></li>
-    	<li><a href="https://github.com/cbajgier">My GitHub Profile</a></li>
-	</ul>
-  
-<h2 class="sidebar-title">Posts</h2>
+    <p>That was fun, but no one does that anymore.</p>
 
-<ul id="recently">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-<!-- 
+    <h2 class="sidebar-title">Links</h2>
+    <ul>
+        <li><a href="http://chris.bajgier.net">My Homepage</a>
+        </li>
+        <li><a href="https://github.com/cbajgier">My GitHub Profile</a>
+        </li>
+    </ul>
+
+    <h2 class="sidebar-title">Posts</h2>
+
+    <ul id="recently">
+        {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <!-- 
 	<h2 class="sidebar-title">Connect</h2>
 	<ul class="archive-list">
 		
@@ -35,10 +37,10 @@
   </ul>
 -->
 
-</div> <!-- Closing div for rightcontent -->
+</div>
+<!-- Closing div for rightcontent -->
 
 <div id="footer">
-	Powered by <a href="http://jekyllrb.com/"><strong>Jekyll</strong></a><br />
-	Theme by <a href="http://chris.bajgier.net"><strong>Christopher Bajgier</strong></a>
+    Powered by <a href="http://jekyllrb.com/"><strong>Jekyll</strong></a>
+    <br /> Theme by <a href="http://chris.bajgier.net"><strong>Christopher Bajgier</strong></a>
 </div>
-    

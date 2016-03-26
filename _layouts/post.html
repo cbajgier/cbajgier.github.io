@@ -4,54 +4,59 @@ comments: true
 ---
 
 <div id="middlecontent">
-  			<h2 class="date-header">{{ page.date | date_to_string }}</h2>
-    
-  		<!-- Begin .post -->
-{% if page.comments %}
-<script type="text/javascript">
+    <h2 class="date-header">{{ page.date | date_to_string }}</h2>
 
-    var disqus_shortname = 'adventuresincomputing';
-    var disqus_identifier = '{{ page.id }}';
-    var disqus_title = '{{ page.title }}';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-{% endif %}
-
-
-  		<div class="post"><a name="{{ page.url }}"></a>
-         <div class="post-header">
-    				<h3 class="post-title"><a href="{{ page.url }}" title="permanent link">{{ page.title }}</a></h3>
-		   
-    
-      		<div class="post-meta">
-                {{ page.categories | array_to_sentence_string }}
-            </div>
-      	</div>
-      		   
-	   	<div class="post-body">
-      		{{ content }}
-    		</div>
-
-			<div class="post-footer">
-{% if page.comments %}
-    <div id="disqus_thread"></div>
+    <!-- Begin .post -->
+    {% if page.comments %}
     <script type="text/javascript">
-        var disqus_shortname = 'adventuresincomputing'; 
+        var disqus_shortname = 'adventuresincomputing';
+        var disqus_identifier = '{{ page.id }}';
+        var disqus_title = '{{ page.title }}';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        (function () {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-                </div>
-{% endif %}
+    {% endif %}
+
+
+    <div class="post">
+        <a name="{{ page.url }}"></a>
+        <div class="post-header">
+            <h3 class="post-title"><a href="{{ page.url }}" title="permanent link">{{ page.title }}</a></h3>
+
+
+            <div class="post-meta">
+                {{ page.categories | array_to_sentence_string }}
+            </div>
+        </div>
+
+        <div class="post-body">
+            {{ content }}
+        </div>
+
+        <div class="post-footer">
+            {% if page.comments %}
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = 'adventuresincomputing';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var dsq = document.createElement('script');
+                    dsq.type = 'text/javascript';
+                    dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+            </noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+        {% endif %}
