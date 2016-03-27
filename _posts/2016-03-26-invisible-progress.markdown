@@ -26,4 +26,4 @@ On a roll, I signed up for Coursera's [_Programming for Everybody_](https://www.
 </tbody>
 </table>
 
-Since then, I've written even more small utilities in Python and started my master project in Django. So yeah, even though I haven't done much on the site, I've learned a ton and enjoyed participating in the local community while doing it.
+Since then, I've written even more small utilities in Python and started my master project in Django. So yeah, even though I haven't done much on the site, I've learned a ton _"offline"_ and enjoyed participating in the local community while doing it.
