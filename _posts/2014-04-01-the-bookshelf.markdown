@@ -3,6 +3,7 @@ layout: post
 title:  "The Bookshelf"
 date:   2014-04-01 18:30:09
 categories: development storytelling
+comments: true
 ---
 
 The bookshelf in my living room is roughly arranged like this:
@@ -18,7 +19,7 @@ The bookshelf in my living room is roughly arranged like this:
 
 ![Shelves of programming books]({{ site.url }}/assets/bookshelf-thumb.jpg)
 
-### Fun Facts ###
+### Fun Facts
 
 * A couple of the C/C++ books I have came via starter kits bundled with older versions of Microsoft/Borland IDEs.
 * Delphi Studio is boxed software, but that thing came filled with books so it deserves to be here.

@@ -3,6 +3,7 @@ layout: post
 title:  "Invisible Progress"
 date:   2016-03-26 15:15:09
 categories: development progress
+comments: true
 ---
 
 While it hasn't looked like much, and no one's really counting anyway, I have been making solid progress and have made significant steps in my programming journey in 2015.
