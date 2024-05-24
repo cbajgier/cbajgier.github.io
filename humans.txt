@@ -14,3 +14,7 @@
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
     Jekyll, Markdown, Liquid
+
+# RESOURCES
+
+    Blocking OpenAI using robots.txt: https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
