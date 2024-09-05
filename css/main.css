@@ -226,7 +226,7 @@ a:active {
   }
   
 .post blockquote {
-	border-left: 10px solid #e8e8e8;
+	border-left: 10px solid steelblue;
 	margin-left: 1.5em;
 	padding-left: 15px;
   }
