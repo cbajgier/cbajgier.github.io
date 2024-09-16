@@ -152,24 +152,24 @@ a:active {
 	font-size: 110%;
 	}
 	
-#rightcontent a, #rightcontent a:visited {
+nav a, nav a:visited {
 	color: gray;
 	}
 	
-#rightcontent a:hover {
+nav a:hover {
 	color: gray;
 	text-decoration: none;
-	border-bottom: 2px solid slategray;
+	border-bottom: 2px solid steelblue;
 	}
 
-#rightcontent li {
+nav li {
 	list-style-type: square;
 	text-indent: 0px !important;
 	text-indent: 25px;
-	color: gray;
+	color: lightslategray;
 	}
 	
-#rightcontent ul {
+nav ul {
 	margin: 0px;
 	}
 
@@ -203,8 +203,9 @@ a:active {
 	}
   
 .post-title a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: lightsteelblue;
+  border-bottom: 2px solid lightsteelblue;
   }
 
 .post-meta {
@@ -247,7 +248,7 @@ a:active {
 	font-size: 150%;
 	}
 
-div#header {
+header {
 	background-color: steelblue;
 	height: 100px;
 	color: white;
@@ -263,7 +264,7 @@ div#header {
 	display: block;
 	}
 
-div#rightcontent {
+nav {
 	background: #e8e8e8;
 	border-left: 10px solid silver; 
 	padding: 20px 10px 10px 20px;
@@ -271,10 +272,10 @@ div#rightcontent {
 	width: 320px;
 	clear: right;
 	margin-top: 0px;
-	color: gray;
+	color: dimgray;
 	}
 	
-div#footer {
+footer {
 	border-left: 10px solid black; 
 	padding: 20px 10px 20px 20px;
 	float: right;
@@ -288,22 +289,70 @@ div#footer {
 	font-size: 80%;
 	}
 
-#footer a, #footer a:visited, #footer a:active {
-	color: white;
-	}
-	
-#footer a:hover {
-	color: white;
-	text-decoration: underline;
-	}
-
-div#middlecontent {
+main {
 	padding: 10px 20px 10px 20px;
 	background-color: white;
 	clear: none;
 	margin-right: 360px;
+}
+		
+@media only screen and (max-width: 600px)
+{
+	body {
+		display: grid;
+		padding: 0px;
+		max-width:none;
+		position: relative;
+	}
+
+	header {
+		display: block;
+		clear: both;
+		width: auto; 
+	}
+
+	nav {
+		width: auto;
+		clear: both;
+		float: none;
+		display: none;
 	}
 	
+	footer {
+		width: auto;
+		clear: both;
+		position: absolute;
+		bottom: 0;
+		display: block;
+	}
+
+	main {
+		width: auto;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-bottom: 165px;
+		margin-right: 0px;
+		padding: 10px 20px 10px 20px;
+		background-color: white;
+	}
+
+	div#post img {
+		width: auto;
+		height: auto;
+		display: block;
+		max-width: fit-content;
+	}
+}
+
+footer a, footer a:visited, footer a:active {
+	color: white;
+	}
+	
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+	}
+
 div.post {
 	margin-top: 10px; 
 	text-align: justify;
