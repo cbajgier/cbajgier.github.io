@@ -295,13 +295,18 @@ main {
 	clear: none;
 	margin-right: 360px;
 }
-		
+
+#pagination {
+	width: 100%;
+	text-align: right;
+}
+
 @media only screen and (max-width: 600px)
 {
 	body {
 		display: grid;
 		padding: 0px;
-		max-width:none;
+		max-width: none;
 		position: relative;
 	}
 
