@@ -16,7 +16,10 @@ title: Home
         </div>
 
         <div class="post-body">
-            {{ post.content }}
+            {{ post.excerpt }}
+            {% if post.excerpt != post.content %}
+                <a href="{{ post.url }}">Read More</a>
+            {% endif %}
         </div>
 
         {% endfor %}

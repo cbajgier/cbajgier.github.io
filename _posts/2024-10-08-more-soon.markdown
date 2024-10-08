@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "More Soon"
+date:   2024-10-08 13:19:07
+categories: about progress info
+comments: true
+---
+They say "necessity is the mother of invention", and I've outfitted this blog site with a way to excerpt long posts after drafting a post much too lengthy for the front page.
+
+Rejuvinating this site is part of my deliberate practice to improve my writing. It's meant to be a cathartic exercise, too, and the prospect of a meager audience (only by ways of this being publicly accessible), grounds me in my choice of language and the context I'd set.
+
+The site is also newly responsive, though I'd need to re-architect parts of the theme itself to incorporate all sections in a responsive way. Right now, the focus is on the reading experience of a post. This site uses a theme that I authored first as a [WordPress](https://wordpress.org) theme, then [Blogger](https://blogger.com) for my personal blog back when I was an undergraduate student (over twenty years ago).
