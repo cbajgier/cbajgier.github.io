@@ -226,11 +226,32 @@ nav ul {
   padding: 4px;
   }
   
+.galleryThumb {
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	display: block;
+}
+
 .post blockquote {
 	border-left: 10px solid steelblue;
 	margin-left: 1.5em;
 	padding-left: 15px;
   }
+
+.post code {
+	border: 1px solid #999;
+	padding: 4px;
+	display: block;
+	background-color: #eee;
+	font-size: small;
+}
+
+.post figcaption {
+	font-size: smaller;
+	color: #333;
+	margin-top: -1em;
+}
   
 .profile-img {
   display: inline;
