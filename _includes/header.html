@@ -21,6 +21,29 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>{{ site.name }} - {{ page.title }}</title>
+
+        <!-- Add open graph tags to try to make discovery easier -->
+
+        {% if page.image.feature %}
+        <meta name="twitter:card"
+        content="summary_large_image">
+        <meta name="twitter:image"
+        content="{{ site.url }}/images/{{ page.image.feature }}">
+        {% else %}
+        <meta name="twitter:card"
+        content="summary_large_image">
+        <meta name="twitter:image"
+        content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png">
+        {%endif%}
+
+        {% if page.image.feature %}
+        <meta property="og:image"
+        content="{{ site.url }}/images/{{ page.image.feature }}">
+        {% else %}
+        <meta property="og:image"
+        content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png">
+        {% endif %}
+
         <meta name="description" content="A humble development blog.">
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
