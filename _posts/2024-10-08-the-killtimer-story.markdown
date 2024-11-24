@@ -14,6 +14,8 @@ My family purchased our first computer in late 1996 and we got on the internet, 
 
 In the days of dial-up internet, this meant that you'd sit and wait for your modem to connect as it cycled through busy signals. In response, AOL started instituting timed log-offs for customers who were "inactive" on the network. This was the Netflix ["Are you still watching?"](https://www.howtogeek.com/685919/why-netflix-asks-are-you-still-watching-and-how-to-stop-it/) message of the day, and someone would have to respond to a popup window prompt in time to avoid getting logged off. Of course, this wasn't an accurate thing, and completely disregarded whether bandwidth was being used to complete a long download.
 
+![AOL Prompt](/assets/TIMER.GIF)
+
 And so, a marketplace sprung up for add-ons that would monitor for popup window and respond in time -- usually shareware, written in Visual Basic with an unreliable "SendKeys" way of responding. I recall how this struck me. A large corporation makes a play to quickly grow before they could fully understand the consequences, finding themselves unable to deliver the value that customers expected. They put measures in place after the fact that dilute this for their customers, leaving them to recover what they can through paid solutions for a manufactured problem. As a kid from a poor family struggling with the basic subscription costs to AOL, this felt wrong and had me wondering what it would take to write an add-on of my own.
 
 <!--more-->
