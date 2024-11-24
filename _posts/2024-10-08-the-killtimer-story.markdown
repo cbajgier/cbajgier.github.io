@@ -5,6 +5,7 @@ date:   2024-10-08 11:08:45
 categories: development storytelling
 excerpt_separator: <!--more-->
 comments: true
+feature-img: "/assets/ktweb1.png"
 ---
 
 When I was a teenager, I wrote a small, but popular, [AOL add-on](https://github.com/readme/featured/aol-programming-culture), called KillTimer. In fact, the web page [still exists](http://members.tripod.com/~cbajgier). This is remarkable since I've had no access to the site for over twenty years and didn't keep with any updates. Apparently [Lycos](https://www.lycos.com), who now owns Tripod, found a way to inject it with enough ads to keep it living forever.
@@ -101,4 +102,4 @@ In addition, I started to frequently encounter angry emails from people who were
 
 KillTimer gave me some unique exposure. These were the ["dot-com" days](https://www.historynewsnetwork.org/article/the-internet-at-50-how-the-dot-com-bubble-burst), and every so often I fielded calls from internet startups that would try to recruit me, each of which destined for [fuckedcompany.com](https://en.wikipedia.org/wiki/Fucked_Company) when the initial boom subsided. It gave me, an insecure kid, the chance to peer into some of the hype and excitement the business world of software had to offer. I was too intimidated by the prospect of leaving my home to pursue any of this seriously, and it made it even more clear that I needed to build up to my independence by enrolling in college first. 
 
-In hindsight, and through the lens of the digital product management work I do professionally, the things I did intuitively as a teenager to build, market, and support KillTimer still form the core of how I operate today. The reasons why I launched it, the disempowering style of problem I tried to help through my efforts still resonate within me. And the experience is one of many that equip me for the work I want to do now -- combating extractive patterns in tech products and industry.
+In hindsight, and through the lens of the [digital product management](https://soberproduct.com) work I do professionally, the things I did intuitively as a teenager to build, market, and support KillTimer still form the core of how I operate today. The reasons why I launched it, the disempowering style of problem I tried to help through my efforts still resonate within me. And the experience is one of many that equip me for the work I want to do now -- combating extractive patterns in tech products and industry.

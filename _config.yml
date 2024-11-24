@@ -1,4 +1,5 @@
 name: Adventures in Computing
+title: Adventures in Computing
 markdown: kramdown
 highlighter: rouge
 redcarpet:
@@ -6,4 +7,8 @@ redcarpet:
 paginate: 4
 plugins: [jekyll-paginate]
 url: https://adventuresincomputing.bajgier.net
+locale: en_US
 excerpt_separator: <!--more-->
+timezone: America/New_York
+theme:
+  description: "A humble development blog"
