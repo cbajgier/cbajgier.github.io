@@ -19,3 +19,4 @@
 
     Blocking OpenAI using robots.txt: https://www.cyberciti.biz/web-developer/block-openai-bard-bing-ai-crawler-bots-using-robots-txt-file/
     Automatically generating Github-like og:images in Jekyll: https://ognjen.io/automatic-jekyll-post-previews/
+    Bluesky profile embed widget: https://bsky-widget.srbh.dev/
