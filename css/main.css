@@ -105,7 +105,7 @@ a {
 	color: steelblue;
 	text-decoration: none;
 }
-	
+
 a:hover {
 	color: lightsteelblue;
 	text-decoration: underline;
@@ -115,7 +115,7 @@ a:visited {
 	color: slategray;
 }
 
-a:active { 
+a:active {
 	color: lightsteelblue;
 	text-decoration: underline;
 	}
@@ -130,7 +130,7 @@ a:active {
 	margin-top: 50px;
 	margin-bottom: 0px;
 	}
-	
+
 #main-title a {
 	text-decoration: none;
 	color: white;
@@ -151,11 +151,11 @@ a:active {
 	font-weight: bold;
 	font-size: 110%;
 	}
-	
+
 nav a, nav a:visited {
 	color: gray;
 	}
-	
+
 nav a:hover {
 	color: gray;
 	text-decoration: none;
@@ -168,7 +168,7 @@ nav li {
 	text-indent: 25px;
 	color: lightslategray;
 	}
-	
+
 nav ul {
 	margin: 0px;
 	}
@@ -191,17 +191,17 @@ nav ul {
 	color: steelblue;
 	padding: 5px;
 	}
-  
+
 .post-title a {
 	color: steelblue;
 	text-decoration: none;
 	}
-	
+
 .post-title a:visited {
 	color: slategray;
 	text-decoration: none;
 	}
-  
+
 .post-title a:hover {
   text-decoration: none;
   color: lightsteelblue;
@@ -225,7 +225,7 @@ nav ul {
 .post img {
   padding: 4px;
   }
-  
+
 .galleryThumb {
 	margin: auto;
 	width: 50%;
@@ -252,11 +252,11 @@ nav ul {
 	color: #333;
 	margin-top: -1em;
 }
-  
+
 .profile-img {
   display: inline;
   }
-  
+
 .profile-img img {
   float: left;
   padding: 4px;
@@ -287,7 +287,7 @@ header {
 
 nav {
 	background: #e8e8e8;
-	border-left: 10px solid silver; 
+	border-left: 10px solid silver;
 	padding: 20px 10px 10px 20px;
 	float: right;
 	width: 320px;
@@ -295,9 +295,9 @@ nav {
 	margin-top: 0px;
 	color: dimgray;
 	}
-	
+
 footer {
-	border-left: 10px solid black; 
+	border-left: 10px solid black;
 	padding: 20px 10px 20px 20px;
 	float: right;
 	width: 320px;
@@ -334,7 +334,7 @@ main {
 	header {
 		display: block;
 		clear: both;
-		width: auto; 
+		width: auto;
 	}
 
 	nav {
@@ -343,7 +343,7 @@ main {
 		float: none;
 		display: none;
 	}
-	
+
 	footer {
 		width: auto;
 		clear: both;
@@ -373,24 +373,29 @@ main {
 footer a, footer a:visited, footer a:active {
 	color: white;
 	}
-	
+
 footer a:hover {
 	color: white;
 	text-decoration: underline;
 	}
 
 div.post {
-	margin-top: 10px; 
+	margin-top: 10px;
 	text-align: justify;
 	}
 
 .post-body ul {
 	list-style-type: square;
 	}
-	
+
 .profile-textblock p {
 	text-align: justify;
 	}
+
+bsky-widget {
+	min-height: 370px;
+	width: 350px;
+}
 
 /* ==========================================================================
    Helper classes
