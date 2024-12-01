@@ -245,6 +245,7 @@ nav ul {
 	display: block;
 	background-color: #eee;
 	font-size: small;
+	
 }
 
 .post figcaption {
@@ -363,16 +364,17 @@ main {
 	}
 
 	div#post img {
-		width: auto;
+		width: 100%;
 		height: auto;
 		display: block;
 		max-width: fit-content;
 	}
+
 	.galleryThumb {
-		width: 25% !important;
-		height: 25% !important;
+		width: 100%  !important;
+		height: auto !important;
 		display: block;
-		max-width: fit-content !important;
+		max-width: fit-content !important;		
 	}
 
 	.post code {
@@ -381,6 +383,9 @@ main {
 		display: block;
 		background-color: #eee;
 		font-size: small;
+		overflow-x: scroll;
+		width: 325px;
+		max-width: 350px !important;
 	}
 }
 
