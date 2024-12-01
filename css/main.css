@@ -374,6 +374,14 @@ main {
 		display: block;
 		max-width: fit-content !important;
 	}
+
+	.post code {
+		border: 1px solid #999;
+		padding: 4px;
+		display: block;
+		background-color: #eee;
+		font-size: small;
+	}
 }
 
 footer a, footer a:visited, footer a:active {
