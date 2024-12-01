@@ -369,10 +369,10 @@ main {
 		max-width: fit-content;
 	}
 	.galleryThumb {
-		width: auto;
-		height: auto;
+		width: 25% !important;
+		height: 25% !important;
 		display: block;
-		max-width: fit-content;
+		max-width: fit-content !important;
 	}
 }
 
