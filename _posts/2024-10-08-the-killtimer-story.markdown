@@ -76,6 +76,8 @@ I set up an additional e-mail address through a free service, Juno, to respond t
 
 ### Recognition for KillTimer
 
+![KillTimer Excerpt from the book eBay for Dummies](/assets/ebay.png){: .galleryThumb}
+
 KillTimer was listed in the resource appendix of the early editions of [eBay for Dummies](https://www.amazon.com/eBay-Dummies-Roland-Woerner/dp/0764506102), and it was a thrill to see mention of it in print. I still remember visiting Waldenbooks with my father, retrieving a copy from the shelf and browsing for its entry toward the back.
 
 ![KillTimer as Kim's Shareware Pick of the Week](/assets/ktpick.png){: .galleryThumb}
