@@ -1,24 +1,32 @@
 ---
 layout: default
 title: Home
+sitemap:
+    priority: 0.7
+    changefreq: "monthly"
+    lastmod: 2025-04-01T12:49:30-05:00
 ---
+
 <main>
     {% for post in paginator.posts %}
     <h2 class="date-header">{{ post.date | date_to_string }}</h2>
     <div class="post">
         <a name="{{ post.url }}"></a>
         <div class="post-header">
-            <h3 class="post-title"><a href="{{ post.url }}" title="permanent link">{{ post.title }}</a></h3>
+            <h3 class="post-title">
+                <a href="{{ post.url }}" title="permanent link"
+                    >{{ post.title }}</a
+                >
+            </h3>
 
-
-            <div class="post-meta">{{ post.categories | array_to_sentence_string }}
+            <div class="post-meta">
+                {{ post.categories | array_to_sentence_string }}
             </div>
         </div>
 
         <div class="post-body">
-            {{ post.excerpt }}
-            {% if post.excerpt != post.content %}
-                <a href="{{ post.url }}">Read More</a>
+            {{ post.excerpt }} {% if post.excerpt != post.content %}
+            <a href="{{ post.url }}">Read More</a>
             {% endif %}
         </div>
 
@@ -36,13 +44,13 @@ title: Home
             {% else %}
             <span class="previous">Previous</span>
             {% endif %}
-            <span class="page_number ">
-            Page: {{ paginator.page }} of {{ paginator.total_pages }}
+            <span class="page_number">
+                Page: {{ paginator.page }} of {{ paginator.total_pages }}
             </span>
             {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}" class="next">Next</a>
             {% else %}
-            <span class="next ">Next</span>
+            <span class="next">Next</span>
             {% endif %}
         </div>
     </div>

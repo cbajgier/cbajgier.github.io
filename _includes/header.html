@@ -1,88 +1,128 @@
 <!doctype html>
 <html lang="en" class="no-js">
-
     <head>
         <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MMRTMFS7');</script>
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-MMRTMFS7");
+        </script>
         <!-- End Google Tag Manager -->
 
         <script type="text/javascript">
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            (function (c, l, a, r, i, t, y) {
+                c[a] =
+                    c[a] ||
+                    function () {
+                        (c[a].q = c[a].q || []).push(arguments);
+                    };
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
             })(window, document, "clarity", "script", "kak5h8ed39");
         </script>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+            rel="sitemap"
+            type="application/xml"
+            title="Sitemap"
+            href="{{ site.url }}/sitemap.xml"
+        />
         <title>{{ site.name }} - {{ page.title }}</title>
 
         <!-- Add open graph tags to try to make discovery easier -->
 
         {% if page.image.feature %}
-        <meta name="twitter:card"
-        content="summary_large_image">
-        <meta name="twitter:image"
-        content="{{ site.url }}/images/{{ page.image.feature }}">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:image"
+            content="{{ site.url }}/images/{{ page.image.feature }}"
+        />
         {% else %}
-        <meta name="twitter:card"
-        content="summary_large_image">
-        <meta name="twitter:image"
-        content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png">
-        {%endif%}
-
-        {% if page.image.feature %}
-        <meta property="og:image"
-        content="{{ site.url }}/images/{{ page.image.feature }}">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:image"
+            content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png"
+        />
+        {%endif%} {% if page.image.feature %}
+        <meta
+            property="og:image"
+            content="{{ site.url }}/images/{{ page.image.feature }}"
+        />
         {% else %}
-        <meta property="og:image"
-        content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png">
+        <meta
+            property="og:image"
+            content="{{ site.url }}/assets/images/previews/{{ page.slug }}.png"
+        />
         {% endif %}
 
-        <meta name="description" content="A humble development blog.">
+        <meta name="description" content="A humble development blog." />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/main.css">
-	<!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
         {% include social_metadata.html %}
-
     </head>
     <body>
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6L6JL9N79N"></script>
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-6L6JL9N79N"
+        ></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-        gtag('config', 'G-6L6JL9N79N');
+            gtag("config", "G-6L6JL9N79N");
         </script>
 
         <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMRTMFS7"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-            <!-- End Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-MMRTMFS7"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
         <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a> to
+                improve your experience.
+            </p>
         <![endif]-->
 
-    <header>
-        <h1 id="main-title"><a href="/index.html">
-	        {{ site.name }}
-	    </a></h1>
-    </header>
+        <header>
+            <h1 id="main-title"><a href="/index.html"> {{ site.name }} </a></h1>
+        </header>
 
-    {% include nav.html %}
+        {% include nav.html %}
+    </body>
+</html>
