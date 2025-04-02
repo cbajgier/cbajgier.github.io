@@ -21,3 +21,4 @@
     * Automatically generating Github-like og:images in Jekyll: https://ognjen.io/automatic-jekyll-post-previews/
     * Bluesky profile embed widget: https://bsky-widget.srbh.dev/
     * Bluesky Share Button: https://www.pietschsoft.com/post/2024/11/22/how-to-add-share-on-bluesky-action-intent-button-to-your-website
+    * Sitemap: https://github.com/havvg/havvg.github.com/blob/master/sitemap.xml
