@@ -26,7 +26,11 @@ sitemap:
 
         <div class="post-body">
             {{ post.excerpt }} {% if post.excerpt != post.content %}
-            <a href="{{ post.url }}">Read More</a>
+            <a href="{{ post.url }}"
+                ><strong
+                    >Continue reading <em>{{ post.title }}</em> &rarr;</strong
+                ></a
+            >
             {% endif %}
         </div>
 
